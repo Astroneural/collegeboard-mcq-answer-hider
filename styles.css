@@ -1,0 +1,10 @@
+/* Just in case you want to hide green highlight styles instead of removing classes */
+.mcq-option.--correct {
+    background-color: transparent !important;
+    border-color: initial !important;
+}
+
+/* Optionally hide correct checkmarks */
+.icon.--correct {
+    display: none !important;
+}
